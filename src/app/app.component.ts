@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { alunos } from './arquivo';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'atividade-pratica';
+
+  lista_alunos = alunos;
 }
